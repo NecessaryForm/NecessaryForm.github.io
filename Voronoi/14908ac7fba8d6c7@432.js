@@ -24,7 +24,8 @@ md``
   }
 
   invalidation.then(() => worker.terminate());
-
+  worker.addEventListener("message", messaged);
+  worker.postMessage({data, width, height, n});
   return context.canvas;
 }
 );
