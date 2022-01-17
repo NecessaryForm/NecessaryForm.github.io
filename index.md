@@ -2,13 +2,15 @@
 
 ### Background
 
-🏫 I am a current masters student at Cornell University, studying Applied Economics where I am a GTA for *MGMT 5090: Strategy* under Dr. Garrick Blalock, PhD.
+🏫 I am a current masters student at Cornell University, studying Applied Economics where I am a GTA for *MGMT 5090: Strategy* under Dr. Garrick Blalock, PhD. 
 
 🌱 Previously, I worked in fintech at a major stock exchange and then management consulting, focusing on M&A in the middle market healthcare and automotive sectors. 
 
 🚂 Before working, I attended Purdue University, obtaining a bachelors in industrial engineering.
 
-### Current Reading
+### Current Research & Reading
+
+🚰 Currently, I am a part of a team analyzing the global dynamics of water markets and their response to climate change.
 
 📖 I am re-reading *Capital* by Piketty. Check back for some thoughts soon.
 
