@@ -10,11 +10,10 @@
 
 ### Current Research & Reading
 
-🚰 Currently, I am part of a team analyzing the global dynamics of water markets and their response to climate change.
+🚰 Currently, I am part of a team analyzing the global dynamics of water markets and their response to climate change. I will post a synopsis in the coming months.
 
 📖 I am re-reading *Capital* by Piketty. Check back for some thoughts soon.
 
 ### Contact
 
-📨 You can find me [here](https://twitter.com/NecessaryForm).
-I can also be reached at 'myname' at danie1.xyz. Feel free to reach out!
+📨 You can find me [here](https://twitter.com/NecessaryForm). I can also be reached at 'my name' at danie1 . xyz. Feel free to reach out!
