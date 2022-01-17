@@ -14,6 +14,6 @@
 
 ### Contact
 
-You can find me [here](https://twitter.com/NecessaryForm).
+📨 You can find me [here](https://twitter.com/NecessaryForm).
 I can also be reached at 'myname' at danie1.xyz. Feel free to reach out!
 
