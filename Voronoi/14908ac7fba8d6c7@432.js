@@ -2,9 +2,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   const fileAttachments = new Map([["14959f050311f400368624031a7b9e4285f35c65ca4022f618f9250d7163ef4b0a0582de20f7d9790ed76b3442b4a77ebb96b86f641c1d8466f6544325144aed@3.png",new URL("./files/fa6c91acc020c3b919dd098c23a75d3b64a74ea978c1dfba0263e0d848581f7d4ba7cbe4a8c73b7efd756cd00b7a3a86a3b2723704145eb507c6d139e1a7829e",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
-  main.variable(observer()).define(["md"], function(md){return(
-md 
-)});
+
   main.variable(observer("image")).define("image", ["DOM","width","height","script","invalidation","data","n"], function(DOM,width,height,script,invalidation,data,n)
 {
   const context = DOM.context2d(width, height);
@@ -103,11 +101,6 @@ onmessage = event => {
   return data;
 }
 );
-  main.variable(observer("n")).define("n", ["width","height"], function(width,height){return(
-Math.round(width * height / 40)
-)});
-  main.variable(observer("height")).define("height", ["data"], function(data){return(
-data.height
-)});
+
   return main;
 }
