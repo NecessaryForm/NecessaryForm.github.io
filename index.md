@@ -1,6 +1,4 @@
-## Welcome to my page
-
-Hi! I'm Daniel, an economist & engineer. 
+## Hi! I'm Daniel, an economist & engineer.
 
 ### Current Reading
 
