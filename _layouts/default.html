@@ -21,14 +21,9 @@
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
+        
         {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-<div id="observablehq-image-8c9bc715"></div>
+        <div id="observablehq-image-8c9bc715"></div>
 
 
 <script type="module">
@@ -38,6 +33,12 @@ new Runtime().module(define, name => {
   if (name === "image") return new Inspector(document.querySelector("#observablehq-image-8c9bc715"));
 });
 </script>
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
 
 
       <!--  {% if site.github.is_user_page %}
