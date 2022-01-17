@@ -23,16 +23,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         
         {% endif %}
-        <div id="observablehq-image-8c9bc715"></div>
-
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/47d5365497863584.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "image") return new Inspector(document.querySelector("#observablehq-image-8c9bc715"));
-});
-</script>
+     
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
