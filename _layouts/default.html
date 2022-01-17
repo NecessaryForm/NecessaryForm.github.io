@@ -30,13 +30,6 @@
         <div id="observablehq-image-15ee3565"></div>
 <p>Credit: <a href="https://observablehq.com/d/14908ac7fba8d6c7">Voronoi Stippling by Daniel</a></p>
 
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/14908ac7fba8d6c7.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "image") return new Inspector(document.querySelector("#observablehq-image-15ee3565"));
-});
-</script>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
