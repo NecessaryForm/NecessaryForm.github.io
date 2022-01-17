@@ -81,10 +81,7 @@ onmessage = event => {
 
   close();
 };
-`], {type: "text/javascript"});
-  const script = URL.createObjectURL(blob);
-  invalidation.then(() => URL.revokeObjectURL(script));
-  return script;
+`], 
 }
 );
   main.variable(observer("data")).define("data", ["FileAttachment","width","DOM"], async function(FileAttachment,width,DOM)
