@@ -18,17 +18,7 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <!--<img src="{{site.logo | relative_url}}" alt="Logo" />-->
-        <div id="observablehq-image-ad166852"></div>
-<p>Credit: <a href="https://observablehq.com/d/14908ac7fba8d6c7">Voronoi Stippling by Daniel</a></p>
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/14908ac7fba8d6c7@427.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "image") return new Inspector(document.querySelector("#observablehq-image-ad166852"));
-});
-</script>
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
