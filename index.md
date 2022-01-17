@@ -10,7 +10,7 @@
 
 ### Current Research & Reading
 
-🚰 Currently, I am a part of a team analyzing the global dynamics of water markets and their response to climate change.
+🚰 Currently, I am part of a team analyzing the global dynamics of water markets and their response to climate change.
 
 📖 I am re-reading *Capital* by Piketty. Check back for some thoughts soon.
 
