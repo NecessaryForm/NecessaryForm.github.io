@@ -4,11 +4,7 @@ export default function define(runtime, observer) {
   const fileAttachments = new Map([["obama.png",new URL("./files/14959f050311f400368624031a7b9e4285f35c65ca4022f618f9250d7163ef4b0a0582de20f7d9790ed76b3442b4a77ebb96b86f641c1d8466f6544325144aed",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
-md`# Voronoi Stippling
-
-This notebook applies a weighted variant of [Lloyd’s algorithm](/@mbostock/lloyds-algorithm) to implement stippling. Points are initially positioned randomly using rejection sampling, then at each iteration, the Voronoi cell centroids are weighted by the lightness of the contained pixels.
-
-This technique is based on [*Weighted Voronoi Stippling*](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf) by [Adrian Secord](https://cs.nyu.edu/~ajsecord/stipples.html); see also posts by [Muhammad Firmansyah Kasim](https://mfkasim91.github.io/2016/12/06/stippling-pictures-with-lloyds-algorithm/), [Egor Larionov](https://elrnv.com/blog/weighted-lloyds-method-for-voronoi-tesselation/) and [Noah Veltman](https://bl.ocks.org/veltman/017a2093623e1bf3ae041dd3380578cb).`
+md`
 )});
   main.variable(observer("image")).define("image", ["DOM","width","height","script","invalidation","data","n"], function(DOM,width,height,script,invalidation,data,n)
 {
