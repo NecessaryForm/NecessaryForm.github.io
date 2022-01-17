@@ -45,6 +45,8 @@
         {% endif %}
       </header>
       <section>
+
+      {{ content }}
       <div id="observablehq-image-329918bc"></div>
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -53,9 +55,6 @@ new Runtime().module(define, name => {
   if (name === "image") return new Inspector(document.querySelector("#observablehq-image-329918bc"));
 });
 </script>
-
-      {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
