@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,9 +31,17 @@
         {% endif %}
 
 
-      <!--  {% if site.github.is_user_page %}
+        {% if site.github.is_user_page %}
+      <div id="observablehq-image-329918bc"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/47d5365497863584.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "image") return new Inspector(document.querySelector("#observablehq-image-329918bc"));
+});
+</script>
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}-->
+        {% endif %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
