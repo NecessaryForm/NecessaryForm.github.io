@@ -1,0 +1,14 @@
+{
+  "name": "14908ac7fba8d6c7",
+  "main": "14908ac7fba8d6c7@432.js",
+  "version": "432.0.0",
+  "homepage": "https://observablehq.com/d/14908ac7fba8d6c7",
+  "author": {
+    "name": "Daniel",
+    "url": "https://observablehq.com/@necessaryform"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
